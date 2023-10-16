@@ -1,0 +1,28 @@
+.tongquantaikhoan-container{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+}
+.tongquantaikhoan-text{
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 36px;
+    text-align: start;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: 505px 505px;
+    column-gap: 30px;
+    row-gap: 35px;
+  
+}
+.hinh1{
+width: 100%;
+position: fixed;
+left: 0px;
+z-index: -10000;
+top:650px;
+}

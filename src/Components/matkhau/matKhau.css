@@ -1,0 +1,17 @@
+.matKhau-container{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+}
+.matkhau-btn-capnhat{
+    margin-top: 15px;
+    align-self: flex-end;
+    margin-right: 37px;
+}
+.matKhau-text{
+    font-size: 36px;
+    font-weight: 650;
+    text-align: start;
+}

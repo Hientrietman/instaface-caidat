@@ -1,0 +1,35 @@
+.thongbao-container{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+}
+.thongbao-text{
+    font-size: 36px;
+    font-weight: 650;
+    text-align: start;
+}
+.thongbao-text2{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+}
+.thongbao-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.thongbao-bat{
+   display: flex;
+   flex-direction: column;
+}
+.thongbao-tat{
+    display: flex;
+    flex-direction: column;
+ }
+ .thongbao-label{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+ }

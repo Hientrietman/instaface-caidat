@@ -1,0 +1,51 @@
+.phuongthuc-container{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+}
+.phuongthuc-phuongthuc-container{
+    display: flex;
+  align-items: start;
+  column-gap: 55px;
+  flex-direction: column;
+}
+.text{
+    text-align: start;
+    font-size: 48px;
+    font-weight: 650;
+}
+.phuongthuc-info{
+    padding-left: 25px;
+    display: flex;
+    background-color: #D3D3D3;
+    width: 350px;
+    flex-direction: row;
+    column-gap: 45px;
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.phuongthuc-text{
+    font-size: 24px;
+    text-align: start;
+}
+.phuongthuc-info:hover{
+    background-color: #e6e4e4;
+
+}
+.phuongthuc-info:active{
+    background-color: #f3f0f0;
+
+}
+.phuongthuc-xoa{
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    align-self: center;
+    border-radius: 50px;
+   
+}

@@ -1,0 +1,25 @@
+.password-input{
+    display: flex;
+   border: none;
+}
+.password-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.input{
+border: none;
+padding-left: 35px;
+}
+.inputpass-label-text{
+    display: block;
+   text-align: start;
+   font-size: 18px;
+   font-weight: 600;
+}
+.password-toggle img {
+    width: 20px; /* Điều chỉnh kích thước tùy ý */
+    height: auto; /* Để giữ tỷ lệ khung hình */
+    margin-left: 8px; /* Khoảng cách giữa biểu tượng và ô nhập mật khẩu */
+}
+  

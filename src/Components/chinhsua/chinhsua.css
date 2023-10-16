@@ -1,0 +1,58 @@
+.chinhSua-text{
+    font-size: 36px;
+    font-weight: 650;
+    text-align: start;
+}
+.chinhSua-container{
+    margin-left: 350px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+}
+.anh-text{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+    margin: 15px 0px 15px 0px
+}
+.btn{
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn:hover{
+ cursor: pointer;
+ background-color: #bfbebe;
+}
+.btn:active{
+    background-color: #a1a1a1;
+}
+.btn-xoaanh{
+    background-color: white;
+}
+
+.btn-thaydoianh{
+    background-color: #D9D9D9;
+}
+.avatar-container{
+    display: grid;
+    grid-template-columns: 450px 150px 200px;
+    align-items: center;
+}
+.caidat-avatar{
+    margin-bottom: 25px;
+    width: 80px;
+    height: 80px;
+}
+.caidat-info-container{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+.btn-capnhat{
+    margin-top: 20px;
+}

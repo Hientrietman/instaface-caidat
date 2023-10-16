@@ -1,0 +1,63 @@
+.CaiDatNavBar-main{
+    height: 60px;
+    
+    left: 250px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #212121;    
+}
+.caiDat-container{
+    position: relative;
+}
+.CaiDatNavBar-left-container{
+    display: flex;
+    margin:0px 0px 0px 25px;
+}
+.CaiDatNavBar-logo{
+    margin-right: 15px;
+    width: 38px;
+    cursor: pointer;
+}
+
+.CaiDatNavBar-searchbar{
+    border-radius: 15px;
+    border-style: none;
+    width: 350px;
+    height: 35px;
+    background-color: rgb(240, 242, 245);
+    font-size: 15px;
+    text-align: center;
+}
+.CaiDatNavBar-middle-container{
+    margin-left: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.CaiDatNavBar-middle-tab:hover{
+    background-color: white;
+    border-bottom:3px solid #7925C7;
+    opacity: 0.6;
+ }
+.CaiDatNavBar-middle-tab img{     
+    width: 42px;
+ }
+.CaiDatNavBar-right-container{
+    margin-left: 150px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    cursor: pointer;
+}
+.CaiDatNavBar-right-container img{
+
+    height: 42px;
+   
+}
+.avatar-name{
+    margin-left: 45px;
+    color:white;
+    font-weight: 700;
+}

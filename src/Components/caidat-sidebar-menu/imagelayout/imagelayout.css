@@ -1,0 +1,16 @@
+.ImageLayout-container{
+    display: flex;
+  
+    align-items: center;
+}
+.ImageLayout-avatar{
+    margin-right: 15px;
+   
+}
+
+.ImageLayout-text{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 650;
+    
+}
